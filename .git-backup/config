@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/nischay3010/Movie_Booking.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop
+[branch "main"]
+	remote = origin
+	merge = refs/heads/feature/pranav
+	vscode-merge-base = origin/feature/pranav
